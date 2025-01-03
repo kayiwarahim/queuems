@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.login_box{
+    background-color: white;
+    padding: 20px;
+    opacity: 1;
+    position: relative;
+    height: auto;
+    width: 400px;
+    z-index: 1;
+    text-align: center;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 120px solid #8A0101;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.register_header{
+    color: #D30707;
+    font-size: 52px;
+    margin-bottom: -40px;
+}
+
+.register_field{
+    background-color: #D9D9D9;
+    color: black;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    padding-top: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.submit_btn{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #07131f;
+    cursor:pointer;
+}
+
+.submit_btn:hover{
+    background-color: #145697;
+}
+
+form{
+    margin-top: 60px;
+}
+
+
+
+  

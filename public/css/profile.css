@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.profile_box{
+    background-color: white;
+    padding: 20px;
+    opacity: 1;
+    position: relative;
+    height: auto;
+    width: 400px;
+    z-index: 1;
+    text-align: center;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 120px solid #07131f;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.profile_header{
+    color: #D30707;
+    font-size: 42px;
+    margin-bottom: -40px;
+}
+
+.user_field{
+    background-color: #D9D9D9;
+    color: black;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    padding-top: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+.link{
+    font-size: 16px;
+}
+
+.submit_btn{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #D30707;
+    cursor:pointer;
+}
+
+.submit_btn:hover{
+    background-color: #8d0808;
+}
+
+.userForm{
+    margin-top: 60px;
+}
+
+.message{
+    font-size: 16px;
+}
+
+label{
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    margin-left: 2rem;
+}
+
+.edit_success{
+    font-size: 16px;
+    color: green;
+}
+
+.error{
+    font-size: 16px;
+    color: red;
+}  
+
+  

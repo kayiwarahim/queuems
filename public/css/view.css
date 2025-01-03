@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column; /* Adjusted to column direction */
+    margin: 0;
+    height: 100vh;
+}
+
+.box_container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new line */
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin: initial;
+    padding: initial;
+    margin-top: -70px;
+}
+
+.table_container {
+    flex: 1 1 300px; /* Set a flexible width with a minimum of 300px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #07131f;
+    color: white;
+    height: 350px;
+    width: 19rem;
+}
+
+.table_container h3 {
+    margin: 0;
+}
+
+.serving {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 12vw;
+    color: white;
+}
+
+.status {
+    color: black;
+    background-color: #F6C500;
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .table_container {
+        flex-basis: calc(50% - 15px); /* Two items per row with a small gap */
+    }
+}
+
+.bottom_left_div {
+    margin-left: -15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: #07131f;
+    /* color: #F6C500; */
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
